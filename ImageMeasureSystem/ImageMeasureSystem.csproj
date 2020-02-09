@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A79730A5-A072-4DCB-80D1-E2B610ABF8A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ImageMeasureSystem</RootNamespace>
+    <AssemblyName>ImageMeasureSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>..\packages\EPPlus.4.5.3.1\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSourceType.cs" />
+    <Compile Include="frmABCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABCD.designer.cs">
+      <DependentUpon>frmABCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmABCDNumSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABCDNumSetting.Designer.cs">
+      <DependentUpon>frmABCDNumSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAIData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAIData.Designer.cs">
+      <DependentUpon>frmAIData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHeadSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHeadSetting.Designer.cs">
+      <DependentUpon>frmHeadSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistorySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistorySearch.Designer.cs">
+      <DependentUpon>frmHistorySearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAI.Designer.cs">
+      <DependentUpon>frmAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageForm.Designer.cs">
+      <DependentUpon>frmMessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlarmForm.Designer.cs">
+      <DependentUpon>frmAlarmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExcelCopyData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExcelCopyData.Designer.cs">
+      <DependentUpon>frmExcelCopyData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLCIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLCIN.Designer.cs">
+      <DependentUpon>frmLCIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImage.Designer.cs">
+      <DependentUpon>frmImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPanelAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPanelAI.Designer.cs">
+      <DependentUpon>frmPanelAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPanelTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPanelTA.Designer.cs">
+      <DependentUpon>frmPanelTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPictureBoxZoomIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPictureBoxZoomIn.designer.cs">
+      <DependentUpon>frmPictureBoxZoomIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAIModelSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAIModelSetting.Designer.cs">
+      <DependentUpon>frmAIModelSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAISamplingSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAISamplingSetting.Designer.cs">
+      <DependentUpon>frmAISamplingSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPidSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPidSetting.Designer.cs">
+      <DependentUpon>frmPidSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRateSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRateSetting.Designer.cs">
+      <DependentUpon>frmRateSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSample.Designer.cs">
+      <DependentUpon>frmSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipe.Designer.cs">
+      <DependentUpon>frmRecipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpecSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpecSetting.Designer.cs">
+      <DependentUpon>frmSpecSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpecSettingABCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpecSettingABCD.Designer.cs">
+      <DependentUpon>frmSpecSettingABCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystemSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemSetting.Designer.cs">
+      <DependentUpon>frmSystemSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTypeChose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTypeChose.designer.cs">
+      <DependentUpon>frmTypeChose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserID.Designer.cs">
+      <DependentUpon>frmUserID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarningForm.Designer.cs">
+      <DependentUpon>frmWarningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="funGenerateXml.cs" />
+    <Compile Include="funSpecialFunction.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmABCD.resx">
+      <DependentUpon>frmABCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABCDNumSetting.resx">
+      <DependentUpon>frmABCDNumSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAIData.resx">
+      <DependentUpon>frmAIData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHeadSetting.resx">
+      <DependentUpon>frmHeadSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistorySearch.resx">
+      <DependentUpon>frmHistorySearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAI.resx">
+      <DependentUpon>frmAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageForm.resx">
+      <DependentUpon>frmMessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlarmForm.resx">
+      <DependentUpon>frmAlarmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExcelCopyData.resx">
+      <DependentUpon>frmExcelCopyData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLCIN.resx">
+      <DependentUpon>frmLCIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImage.resx">
+      <DependentUpon>frmImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPanelAI.resx">
+      <DependentUpon>frmPanelAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPanelTA.resx">
+      <DependentUpon>frmPanelTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPictureBoxZoomIn.resx">
+      <DependentUpon>frmPictureBoxZoomIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAIModelSetting.resx">
+      <DependentUpon>frmAIModelSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAISamplingSetting.resx">
+      <DependentUpon>frmAISamplingSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPidSetting.resx">
+      <DependentUpon>frmPidSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRateSetting.resx">
+      <DependentUpon>frmRateSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSample.resx">
+      <DependentUpon>frmSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe.resx">
+      <DependentUpon>frmRecipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpecSetting.resx">
+      <DependentUpon>frmSpecSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpecSettingABCD.resx">
+      <DependentUpon>frmSpecSettingABCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemSetting.resx">
+      <DependentUpon>frmSystemSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTypeChose.resx">
+      <DependentUpon>frmTypeChose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserID.resx">
+      <DependentUpon>frmUserID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarningForm.resx">
+      <DependentUpon>frmWarningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IW4_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IW5_ %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IW5_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IW6_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IW20_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\20180803\F497T119CU01\LB01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\20180803\F497T119CU01\LT01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\20180803\F497T119CU01\RB01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\20180803\F497T119CU01\RT01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common.PageNexts.32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common.PagePrevious.32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\left-24113_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\RIGHT-24113_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\LT02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\RB02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEXT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Previous.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LCIN_AI\LCIN_AI.csproj">
+      <Project>{c8fc83cc-d63b-47b4-87eb-96ef66ddfd7b}</Project>
+      <Name>LCIN_AI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,36 @@
+[Prod Data]
+ProdName=R909
+PID=618
+LineID=TPAB04
+[Head Setting]
+Head1=01
+Head2=02
+Head3=03
+Head4=04
+Head5=05
+Head6=06
+Head7=07
+Head8=08
+Head9=
+Head10=
+[SPEC Setting]
+Normal_OOS_Max=1.6
+Normal_OOS_Min=1
+Normal_OOC_Max=1.5
+Normal_OOC_Min=1.1
+Overlap_OOS_Max=1.8
+Overlap_OOS_Min=1
+Overlap_OOC_Max=1.7
+Overlap_OOC_Min=1.1
+Corner_OOS_Max=1.8
+Corner_OOS_Min=1
+Corner_OOC_Max=1.7
+Corner_OOC_Min=1.1
+[AI Model Setting]
+Corner_AI_Model=0
+Normal_AI_Model=0
+Overlap_AI_Model=0
+[Sampling Rate Setting]
+AI_Sampling_Rate=1
+[AI DefectCode Type]
+DefectCode_Type=0

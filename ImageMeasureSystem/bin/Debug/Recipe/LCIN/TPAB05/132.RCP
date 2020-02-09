@@ -1,0 +1,36 @@
+[Prod Data]
+ProdName=D334
+PID=132
+LineID=TPAB05
+[Head Setting]
+Head1=01
+Head2=04
+Head3=07
+Head4=10
+Head5=13
+Head6=16
+Head7=19
+Head8=22
+Head9=25
+Head10=28
+[SPEC Setting]
+Normal_OOS_Max=1.0
+Normal_OOS_Min=0.6
+Normal_OOC_Max=0.95
+Normal_OOC_Min=0.65
+Overlap_OOS_Max=1.25
+Overlap_OOS_Min=0.6
+Overlap_OOC_Max=1.15
+Overlap_OOC_Min=0.65
+Corner_OOS_Max=1.25
+Corner_OOS_Min=0.6
+Corner_OOC_Max=1.15
+Corner_OOC_Min=0.65
+[AI Model Setting]
+Corner_AI_Model=0
+Normal_AI_Model=0
+Overlap_AI_Model=0
+[Sampling Rate Setting]
+AI_Sampling_Rate=1
+[AI DefectCode Type]
+DefectCode_Type=0

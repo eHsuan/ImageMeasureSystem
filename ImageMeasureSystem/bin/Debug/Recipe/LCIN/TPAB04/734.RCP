@@ -1,0 +1,42 @@
+[Prod Data]
+ProdName=L508
+PID=734
+LineID=TPAB04
+[Head Setting]
+Head1=01
+Head2=04
+Head3=05
+Head4=08
+Head5=09
+Head6=12
+Head7=
+Head8=
+Head9=
+Head10=
+[SPEC Setting]
+Normal_OOS_Max=1.5
+Normal_OOS_Min=0.9
+Normal_OOC_Max=1.4
+Normal_OOC_Min=1.0
+Overlap_OOS_Max=1.7
+Overlap_OOS_Min=0.9
+Overlap_OOC_Max=1.6
+Overlap_OOC_Min=1.0
+Corner_OOS_Max=1.7
+Corner_OOS_Min=0.9
+Corner_OOC_Max=1.6
+Corner_OOC_Min=1.0
+[AI Model Setting]
+<<<<<<< HEAD
+Corner_AI_Model=1179
+Normal_AI_Model=1181
+Overlap_AI_Model=1183
+=======
+Corner_AI_Model=0
+Normal_AI_Model=0
+Overlap_AI_Model=0
+>>>>>>> 9f390d58744d5e17330500dd6898d6e13e607b76
+[Sampling Rate Setting]
+AI_Sampling_Rate=1
+[AI DefectCode Type]
+DefectCode_Type=0

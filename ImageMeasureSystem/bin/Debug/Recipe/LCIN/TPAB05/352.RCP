@@ -1,0 +1,36 @@
+[Prod Data]
+ProdName=F656
+PID=352
+LineID=TPAB05
+[Head Setting]
+Head1=01
+Head2=05
+Head3=07
+Head4=11
+Head5=13
+Head6=17
+Head7=20
+Head8=23
+Head9=
+Head10=
+[SPEC Setting]
+Normal_OOS_Max=1.1
+Normal_OOS_Min=0.7
+Normal_OOC_Max=1.05
+Normal_OOC_Min=0.75
+Overlap_OOS_Max=1.3
+Overlap_OOS_Min=0.7
+Overlap_OOC_Max=1.25
+Overlap_OOC_Min=0.75
+Corner_OOS_Max=1.3
+Corner_OOS_Min=0.7
+Corner_OOC_Max=1.25
+Corner_OOC_Min=0.75
+[AI Model Setting]
+Corner_AI_Model=0
+Normal_AI_Model=0
+Overlap_AI_Model=0
+[Sampling Rate Setting]
+AI_Sampling_Rate=1
+[AI DefectCode Type]
+DefectCode_Type=0

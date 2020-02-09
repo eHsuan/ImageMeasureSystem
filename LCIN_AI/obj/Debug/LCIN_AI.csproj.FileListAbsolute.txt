@@ -1,0 +1,61 @@
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.3 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.3 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.3 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.3 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.3 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.4 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.4 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.4 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.4 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.4 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.5 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.5 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.5 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.5 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.5 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.6 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.6 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.6 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.6 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.6 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.7 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.7 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.7 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.7 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.7 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.8 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.8 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.8 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.8 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.8 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem v1.7.11 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem v1.7.11 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem v1.7.11 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem v1.7.11 Beta\LCIN_AI\obj\Debug\LCIN_AI.csproj.CoreCompileInputs.cache
+D:\CS\ImageMeasureSystem v1.7.11 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem v1.7.11 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.12 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.12 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.12 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.12 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v1.7.12 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v2.0.1 Beta\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v2.0.1 Beta\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v2.0.1 Beta\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v2.0.1 Beta\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem v2.0.1 Beta\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\LCIN_AI\obj\Debug\LCIN_AI.csprojAssemblyReference.cache
+D:\CS\ImageMeasureSystem\LCIN_AI\obj\Debug\LCIN_AI.csproj.CoreCompileInputs.cache
+D:\CS\ImageMeasureSystem\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\LCIN_AI\obj\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem-master\LCIN_AI\bin\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem-master\LCIN_AI\bin\Debug\LCIN_AI.pdb
+D:\CS\ImageMeasureSystem\ImageMeasureSystem-master\LCIN_AI\obj\Debug\LCIN_AI.dll
+D:\CS\ImageMeasureSystem\ImageMeasureSystem-master\LCIN_AI\obj\Debug\LCIN_AI.pdb

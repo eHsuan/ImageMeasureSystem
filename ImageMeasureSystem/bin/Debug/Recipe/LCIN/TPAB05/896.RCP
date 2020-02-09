@@ -1,0 +1,40 @@
+[Prod Data]
+ProdName=I507
+PID=896
+LineID=TPAB05
+[Head Setting]
+Head1=01
+Head2=02
+Head3=03
+Head4=16
+Head5=17
+Head6=18
+Head7=
+Head8=
+Head9=
+Head10=
+[SPEC Setting]
+Normal_OOS_Max=1.4
+Normal_OOS_Min=0.8
+Normal_OOC_Max=1.3
+Normal_OOC_Min=0.9
+Overlap_OOS_Max=1.62
+Overlap_OOS_Min=1.02
+Overlap_OOC_Max=1.52
+Overlap_OOC_Min=1.12
+Corner_OOS_Max=1.62
+Corner_OOS_Min=1.02
+Corner_OOC_Max=1.52
+Corner_OOC_Min=1.12
+[AI Model Setting]
+Corner_AI_Model=0
+Normal_AI_Model=0
+Overlap_AI_Model=0
+[Sampling Rate Setting]
+AI_Sampling_Rate=1
+[AI DefectCode Type]
+<<<<<<< HEAD
+DefectCode_Type=1
+=======
+DefectCode_Type=0
+>>>>>>> 9f390d58744d5e17330500dd6898d6e13e607b76

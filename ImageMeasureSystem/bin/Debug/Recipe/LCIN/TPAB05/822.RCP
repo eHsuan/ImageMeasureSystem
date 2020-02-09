@@ -1,0 +1,36 @@
+[Prod Data]
+ProdName=E009
+PID=822
+LineID=TPAB05
+[Head Setting]
+Head1=01
+Head2=02
+Head3=03
+Head4=04
+Head5=29
+Head6=30
+Head7=31
+Head8=32
+Head9=
+Head10=
+[SPEC Setting]
+Normal_OOS_Max=1.5
+Normal_OOS_Min=0.7
+Normal_OOC_Max=1.4
+Normal_OOC_Min=0.8
+Overlap_OOS_Max=1.5
+Overlap_OOS_Min=0.7
+Overlap_OOC_Max=1.4
+Overlap_OOC_Min=0.8
+Corner_OOS_Max=1.5
+Corner_OOS_Min=0.7
+Corner_OOC_Max=1.4
+Corner_OOC_Min=0.8
+[AI Model Setting]
+Corner_AI_Model=0
+Normal_AI_Model=0
+Overlap_AI_Model=0
+[Sampling Rate Setting]
+AI_Sampling_Rate=1
+[AI DefectCode Type]
+DefectCode_Type=0
